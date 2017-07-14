@@ -5,4 +5,22 @@
 
 
 /* CSS rules go here */
-
+#myCalculator main {
+  background-color: #444;
+  width: 160%;
+}
+#myCalculator main section{
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding-top: 110px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: 63px 100px;
+  background-position: center 5px;
+}
+#myCalculator main::after{
+  display: block;
+  clear: both;
+  content: '';
+}
